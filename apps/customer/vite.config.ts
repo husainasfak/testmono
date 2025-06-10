@@ -13,6 +13,7 @@ export default defineConfig({
     preserveSymlinks: true,
     alias: {
       '@univdiam/ui': path.resolve(dir, '../../packages/ui/src'),
+      "@": path.resolve(__dirname, "./src"),
     },
   },
   server: {

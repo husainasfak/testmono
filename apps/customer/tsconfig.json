@@ -3,7 +3,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@univdiam/ui/*": ["../../packages/ui/src/*"]
+      "@univdiam/ui/*": ["../../packages/ui/src/*"],
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src", "vite.config.ts"],
