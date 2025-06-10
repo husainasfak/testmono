@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/ui",
+  "name": "@univdiam/ui",
   "version": "0.0.0",
   "type": "module",
   "private": true,
@@ -8,8 +8,10 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
+    "@radix-ui/react-compose-refs": "^1.1.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "scheduler": "^0.26.0",
     "lucide-react": "^0.475.0",
     "next-themes": "^0.4.4",
     "react": "^19.0.0",
@@ -24,8 +26,8 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@workspace/eslint-config": "workspace:*",
-    "@workspace/typescript-config": "workspace:*",
+    "@univdiam/eslint-config": "workspace:*",
+    "@univdiam/typescript-config": "workspace:*",
     "tailwindcss": "^4.0.8",
     "typescript": "^5.7.3"
   },
