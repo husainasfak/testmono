@@ -10,7 +10,8 @@ const dir = path.dirname(fileURLToPath(import.meta.url))
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    preserveSymlinks: true,
+    // follow symlinks so pnpm's linked dependencies are resolved correctly
+    preserveSymlinks: false,
     alias: {
       '@univdiam/ui': path.resolve(dir, '../../packages/ui/src'),
       "@": path.resolve(__dirname, "./src"),
